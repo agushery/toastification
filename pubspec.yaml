@@ -3,26 +3,24 @@ description: Toastification is a Flutter package that allows you to easily show 
 version: 2.1.0
 homepage: https://payamzahedi.com/toastification/
 repository: https://github.com/payam-zahedi/toastification
-topics: 
+topics:
   - toast
   - notification
   - message
   - toastification
 
 environment:
-  sdk: '>=3.0.0 <4.0.0'
-  flutter: ">=1.17.0"
+  sdk: ">=3.0.0"
 
 dependencies:
   flutter:
     sdk: flutter
   equatable: ^2.0.5
-  uuid: ^4.4.2
-  pausable_timer: ^3.1.0+3
+  uuid: 3.0.7
+  pausable_timer: 1.0.0+7
   collection: ^1.18.0
   iconsax_flutter: ^1.0.0
-  
-  
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
